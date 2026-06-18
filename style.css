@@ -21,14 +21,17 @@ body {
     background: #333;
     color: white;
     font-size: 50px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 #btnCon {
     display: grid;
-    grid-template-columns: repeat(4, 65px);
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 5px;
     row-gap: 10px;
     padding: 18px;
+    width: 350px;
 }
 
 .btn {
