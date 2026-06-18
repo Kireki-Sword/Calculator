@@ -11,25 +11,25 @@
         <input id="display" readonly></input>
         <div id="btnCon">
             <div id="yellow">
-                <button id="+" class="btn btnYellow"> + </button>
-                <button id="-" class="btn btnYellow"> - </button>
-                <button id="*" class="btn btnYellow"> * </button>
-                <button id="/" class="btn btnYellow"> / </button>
-                <button id="C" class="btn btnYellow"> C </button>
+                <button onclick="appendToDisplay('+')" id="+" class="btn btnYellow"> + </button>
+                <button onclick="appendToDisplay('-')" id="-" class="btn btnYellow"> - </button>
+                <button onclick="appendToDisplay('*')" id="*" class="btn btnYellow"> * </button>
+                <button onclick="appendToDisplay('/')" id="/" class="btn btnYellow"> / </button>
+                <button onclick="clearDisplay()" id="C" class="btn btnYellow"> C </button>
             </div>
             <div id="black">
-                <button id="7" class="btn btnBlack"> 7 </button>
-                <button id="8" class="btn btnBlack"> 8 </button>
-                <button id="9" class="btn btnBlack"> 9 </button>
-                <button id="4" class="btn btnBlack"> 4 </button>
-                <button id="5" class="btn btnBlack"> 5 </button>
-                <button id="6" class="btn btnBlack"> 6 </button>
-                <button id="1" class="btn btnBlack"> 1 </button>
-                <button id="2" class="btn btnBlack"> 2 </button>
-                <button id="3" class="btn btnBlack"> 3 </button>
-                <button id="0" class="btn btnBlack"> 0 </button>
-                <button id="." class="btn btnBlack"> . </button>
-                <button id="=" class="btn btnBlack"> = </button>
+                <button onclick="appendToDisplay('7')" id="7" class="btn btnBlack"> 7 </button>
+                <button onclick="appendToDisplay('8')" id="8" class="btn btnBlack"> 8 </button>
+                <button onclick="appendToDisplay('9')" id="9" class="btn btnBlack"> 9 </button>
+                <button onclick="appendToDisplay('4')" id="4" class="btn btnBlack"> 4 </button>
+                <button onclick="appendToDisplay('5')" id="5" class="btn btnBlack"> 5 </button>
+                <button onclick="appendToDisplay('6')" id="6" class="btn btnBlack"> 6 </button>
+                <button onclick="appendToDisplay('1')" id="1" class="btn btnBlack"> 1 </button>
+                <button onclick="appendToDisplay('2')" id="2" class="btn btnBlack"> 2 </button>
+                <button onclick="appendToDisplay('3')" id="3" class="btn btnBlack"> 3 </button>
+                <button onclick="appendToDisplay('0')" id="0" class="btn btnBlack"> 0 </button>
+                <button onclick="appendToDisplay('.')" id="." class="btn btnBlack"> . </button>
+                <button onclick="calculate()" id="=" class="btn btnBlack"> = </button>
             </div>
             
         </div>
