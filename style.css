@@ -17,6 +17,7 @@ body {
 }
 
 #display {
+    height: 90;
     background: #333;
     color: white;
     font-size: 50px;
@@ -31,11 +32,10 @@ body {
     row-gap: 10px;
     padding: 18px;
     width: 350px;
+    justify-items: center;
 }
 
 .btn {
-    width: 65px;
-    height: 65px;
     border-radius: 50%;
     border: none;
     font-size: 28px;
