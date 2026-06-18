@@ -13,6 +13,7 @@ body {
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    max-width: 500px
 }
 
 #display {
@@ -21,12 +22,9 @@ body {
     color: white;
     font-size: 50px;
     width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    border: none;
     padding: 0 15px;
-    text-align: right;
+    text-align: left;
 }
 
 #btnCon {
@@ -39,8 +37,8 @@ body {
 }
 
 .btn {
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     border: none;
     font-size: 28px;
