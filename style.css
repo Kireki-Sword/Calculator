@@ -1,5 +1,4 @@
 
-
 body {
     margin: 0;
     height: 100vh;
@@ -11,7 +10,6 @@ body {
 }
 
 #calculator {
-    width: 350px;
     background: #222;
     border-radius: 15px;
     overflow: hidden;
