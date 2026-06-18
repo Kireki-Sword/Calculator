@@ -26,23 +26,12 @@ body{
 }
 #btnCon{
     background-color: rgba(0, 0, 0, 0.7);
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     gap: 10px;
     padding: 15px;
 }
 
-#yellow{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-#black{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3px;
-    width: 200px;
-    padding-left: 15px;
-}
 .btn{
     width: 75px;
     height: 75px;
