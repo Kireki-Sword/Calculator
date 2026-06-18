@@ -1,60 +1,60 @@
 
 
-        body {
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: #eee;
-            font-family: Arial, sans-serif;
-        }
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+    font-family: Arial, sans-serif;
+}
 
-        #calculator {
-            width: 350px;
-            background: #222;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
-        }
+#calculator {
+    width: 350px;
+    background: #222;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
 
-        #display {
-            height: 95px;
-            background: #333;
-            color: white;
-            font-size: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-            padding: 0 20px;
-        }
+#display {
+    height: 95px;
+    background: #333;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+}
 
-        #btnCon {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 12px;
-            padding: 18px;
-        }
+#btnCon {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    padding: 18px;
+}
 
-        .btn {
-            width: 65px;
-            height: 65px;
-            border-radius: 50%;
-            border: none;
-            font-size: 28px;
-            font-weight: bold;
-            color: white;
-            cursor: pointer;
-        }
+.btn {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: none;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
 
-        .btn:hover {
-            opacity: 0.8;
-        }
+.btn:hover {
+    opacity: 0.8;
+}
 
-        .btnYellow {
-            background: orange;
-        }
+.btnYellow {
+    background: orange;
+}
 
-        .btnBlack {
-            background: #555;
-        }
+.btnBlack {
+    background: #555;
+}
