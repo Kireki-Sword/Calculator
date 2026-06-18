@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #eee;
+    background: #e7e6e6c2;
     font-family: Arial, sans-serif;
 }
 
@@ -25,7 +25,7 @@ body {
 
 #btnCon {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 65px);
     column-gap: 5px;
     row-gap: 10px;
     padding: 18px;
